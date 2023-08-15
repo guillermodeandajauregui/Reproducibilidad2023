@@ -5,7 +5,7 @@ state.area
 state.region
 
 #sacar areas
-norte <- state.area[state.region%in%c("North Central", "Northeast", "Northwest")]
+norte <- state.area[state.region%in%c("North Central", "Northeast")]
 
 sur   <- state.area[state.region=="South"]
 
